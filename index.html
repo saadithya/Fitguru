@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Fitness Guru - Your personal AI-powered fitness coach. Record workout videos and get instant form analysis and improvement tips.">
+    <meta name="keywords" content="fitness, AI, workout, form analysis, exercise, personal trainer, gym, health">
+    <title>AI Fitness Guru - Your Personal AI Fitness Coach</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9fafb;
+        }
+        .header {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            color: #10b981;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        .feature-list {
+            list-style: none;
+        }
+        .feature-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            align-items: flex-start;
+        }
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+        .feature-list .icon {
+            color: #10b981;
+            margin-right: 12px;
+            font-size: 1.2rem;
+        }
+        .permission-box {
+            background: #f3f4f6;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .permission-box h4 {
+            color: #374151;
+            margin-bottom: 5px;
+        }
+        .permission-box p {
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background: #059669;
+        }
+        .footer {
+            background: #1f2937;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #10b981;
+            text-decoration: none;
+        }
+        .footer p {
+            margin: 10px 0;
+        }
+        .ai-badge {
+            display: inline-block;
+            background: #fef3c7;
+            color: #92400e;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🏋️ AI Fitness Guru</h1>
+        <p>Your Personal AI-Powered Fitness Coach</p>
+        <span class="ai-badge">Powered by Gemini & OpenAI</span>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>About AI Fitness Guru</h2>
+            <p>AI Fitness Guru is an innovative mobile application that leverages advanced artificial intelligence to analyze your workout form in real-time. Simply record a video of your exercise, and our AI will provide detailed feedback on your posture, technique, and areas for improvement.</p>
+            <p style="margin-top: 15px;">Whether you're a beginner learning proper form or an experienced athlete looking to perfect your technique, AI Fitness Guru provides personalized, professional-grade analysis right from your smartphone.</p>
+        </section>
+
+        <section class="section">
+            <h2>Key Features</h2>
+            <ul class="feature-list">
+                <li>
+                    <span class="icon">📹</span>
+                    <div>
+                        <strong>Video Recording</strong><br>
+                        Record workout videos up to 30 seconds with your device camera. Supports both front and back camera for flexible recording angles.
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">🤖</span>
+                    <div>
+                        <strong>AI-Powered Analysis</strong><br>
+                        Advanced AI extracts key frames from your video and analyzes posture, joint alignment, balance, and movement consistency.
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">✅</span>
+                    <div>
+                        <strong>Detailed Feedback</strong><br>
+                        Receive comprehensive feedback categorized into: what you're doing correctly, areas to improve, and actionable tips.
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">📊</span>
+                    <div>
+                        <strong>Workout History</strong><br>
+                        Access all your previous workout analyses. Review past feedback and track your form improvement over time.
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">🎯</span>
+                    <div>
+                        <strong>Exercise-Specific Analysis</strong><br>
+                        Supports analysis for all major exercises including push-ups, squats, deadlifts, lunges, planks, and more.
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">🔐</span>
+                    <div>
+                        <strong>Secure API Integration</strong><br>
+                        Use your own API keys for Gemini or OpenAI. Your keys are stored securely on your device only.
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">📱</span>
+                    <div>
+                        <strong>Modern Interface</strong><br>
+                        Clean, intuitive user interface designed for ease of use during workouts.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>How It Works</h2>
+            <ol style="padding-left: 20px;">
+                <li style="margin: 15px 0;"><strong>Configure API Key</strong> - Add your Gemini or OpenAI API key in Settings</li>
+                <li style="margin: 15px 0;"><strong>Record Your Workout</strong> - Use the camera to record up to 30 seconds of your exercise</li>
+                <li style="margin: 15px 0;"><strong>Enter Exercise Name</strong> - Specify which exercise you're performing</li>
+                <li style="margin: 15px 0;"><strong>Get AI Analysis</strong> - Receive detailed feedback on your form and technique</li>
+                <li style="margin: 15px 0;"><strong>Review & Improve</strong> - Access your history to track progress over time</li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2>Permissions Required</h2>
+            <p style="margin-bottom: 15px;">AI Fitness Guru requires the following permissions to function properly:</p>
+            
+            <div class="permission-box">
+                <h4>📷 Camera Permission</h4>
+                <p>Required to record workout videos for AI analysis. The app uses your device camera to capture your exercise form. Videos are processed locally and sent to AI services only for analysis.</p>
+            </div>
+            
+            <div class="permission-box">
+                <h4>🎤 Microphone Permission</h4>
+                <p>Required for video recording functionality on Android devices. Audio is not analyzed or stored - this permission is technically required by the video recording feature.</p>
+            </div>
+            
+            <p style="margin-top: 15px; color: #6b7280; font-size: 0.9rem;">
+                <strong>Privacy Note:</strong> All videos are stored locally on your device. Video frames are sent to AI services (Gemini/OpenAI) only during analysis and are not permanently stored on any server.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Supported AI Providers</h2>
+            <ul class="feature-list">
+                <li>
+                    <span class="icon">🔷</span>
+                    <div>
+                        <strong>Google Gemini (Gemini 2.5 Pro)</strong><br>
+                        Advanced multimodal AI for accurate form analysis
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">🟢</span>
+                    <div>
+                        <strong>OpenAI (GPT-4o)</strong><br>
+                        Powerful vision model for detailed workout feedback
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" style="text-align: center;">
+            <h2>Get Started Today</h2>
+            <p>Download AI Fitness Guru and transform your workout routine with AI-powered form analysis.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.aifitguru.app" class="cta-button">Download on Google Play</a>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p><strong>AI Fitness Guru</strong></p>
+        <p>Version 2.0.0</p>
+        <p>Developed by <strong>Scholrship</strong></p>
+        <p>Contact: <a href="mailto:sujith81159@gmail.com">sujith81159@gmail.com</a></p>
+        <p style="margin-top: 20px;">
+            <a href="privacy_policy.html">Privacy Policy</a>
+        </p>
+        <p style="margin-top: 20px; color: #9ca3af; font-size: 0.85rem;">
+            © 2025 Scholrship. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
